@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title style="font-size: 20px;">Лабораторная работа No6</title>
+</head>
+<body>
+<h1 style="font-size: 25px;color: Lime;">подарки необходимо купить родным/коллегам на Новый Год</h1>
+<table border="1">
+<tr>
+
+<th style="font-size: 15px;color: OrangeRed;">ФИО</th>
+<th style="font-size: 15px;color: BlueViolet;">Подарок</th>
+<th style="font-size: 15px;color: Goldenrod;">Стоимость</th>
+<th style="font-size: 15px;color: Aqua;">Статус</th>
+</tr>
+{% for purchase in purchases %}
+
+<tr>
+<td>{{ purchase['name'] }}</td>
+<td>{{ purchase['item'] }}</td>
+<td>{{ purchase['price'] }}</td>
+<td>{{ purchase['status']}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
