@@ -3,7 +3,7 @@ The project demonstrates the creation and interaction with an SQLite database an
 
 The main goal of this lab work is to:
 
-Create an SQLite database to store sample data.
-Use Flask to build a web server.
-Fetch data from the SQLite database using a GET request.
-Display the fetched data on an HTML page.
+1. Create an SQLite database to store sample data.
+2. Use Flask to build a web server.
+3. Fetch data from the SQLite database using a GET request.
+4. Display the fetched data on an HTML page.
